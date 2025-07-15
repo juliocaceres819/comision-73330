@@ -1,0 +1,206 @@
+body {
+  background-color: #26609b;
+  margin: 0;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80px auto 50px;
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
+  gap: 10px;
+  height: 100vh;
+  padding: 10px;
+}
+
+.item1 {
+  grid-area: header;
+  background-color: rgb(177, 148, 223);
+  font-family: "Times New Roman", Times, serif;
+}
+.item1 a {
+  text-decoration: none;
+  color: rgb(20, 46, 53);
+}
+.item1 h1 {
+  text-align: center;
+  justify-content: center;
+}
+
+.item2 {
+  grid-area: main;
+  background-color: rgb(141, 133, 163);
+}
+
+.item3 {
+  grid-area: footer;
+  background-color: rgb(212, 209, 230);
+  text-align: center;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 0;
+}
+.galeria li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galeria li img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.galeria li img:hover {
+  transform: scale(1.05);
+}
+
+body div {
+  display: flex;
+}
+body .titulo_mueble1 {
+  text-align: center;
+}
+
+.img1 img {
+  width: 600px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.img1 {
+  justify-content: center;
+}
+
+.info_img {
+  text-align: center;
+}
+
+.img1 img:hover {
+  transform: scale(1.3);
+}
+
+.titulos {
+  justify-content: center;
+  background-color: rgb(5, 228, 228);
+  font-family: sans-serif;
+}
+
+.imgquienessomos {
+  justify-content: center;
+  height: 500px;
+  width: auto;
+}
+
+.imgdfabrica {
+  border-radius: 30px;
+}
+
+.infoquienessomos p {
+  text-align: center;
+  background-color: rgb(225, 241, 241);
+  border-radius: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.titulo-se-parte-de-nosotros {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.titulos h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.contacto {
+  padding: 20px;
+  text-align: center;
+}
+
+.contacto p {
+  margin: 20px auto;
+  max-width: 800px;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.contactos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contactos input {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.boton button {
+  padding: 10px 30px;
+  font-size: 16px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.boton button:hover {
+  background-color: rgb(172, 157, 139);
+}
+
+.listcontactos {
+  list-style: none;
+  justify-content: flex-start;
+}
+
+body {
+  background-color: rgb(219, 219, 241);
+}
+body .box1 {
+  padding-right: 20px;
+}
+body .infobox {
+  background-color: rgb(231, 238, 240);
+}
+body div.carousel-inner img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+body .infobox {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  align-items: center;
+  border-radius: 20px;
+}
+body footer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+body .logo {
+  margin: 0 20px;
+}
+body .logo img {
+  height: 60px;
+  width: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

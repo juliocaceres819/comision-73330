@@ -1,0 +1,41 @@
+@use "NuestrosProductos";
+@use "muebles";
+@use "quienesSomos";
+@use "trabajaconnosotros";
+@use "contacto";
+
+body {
+  background-color: rgb(219, 219, 241);
+  .box1 {
+    padding-right: 20px;
+  }
+  .infobox {
+    background-color: rgb(231, 238, 240);
+  }
+  div.carousel-inner {
+    img {
+      width: 100%;
+      max-height: 500px;
+      object-fit: cover;
+    }
+  }
+  .infobox {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 20px;
+  }
+  footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    margin: 0 20px;
+    img {
+      height: 60px;
+      width: 60px;
+    }
+  }
+}
